@@ -1,0 +1,100 @@
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+
+
+
+.circle_m{
+   position:absolute;top:-25px;left:-25px;width:200px;height:200px;
+}
+.cd-svg-container svg {
+  display: block;
+  overflow: hidden;
+  max-width: 100%;
+}
+.no-js .cd-svg-container {
+  height: 200px;
+  background: url("../img/cd-icon.svg") no-repeat center center;
+}
+.no-js .cd-svg-container svg {
+  display: none;
+}
+
+/* -------------------------------- 
+
+Manage colors
+
+-------------------------------- */
+.cd-stroke {
+  fill: none;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+.cd-stroke-color-1 {
+  stroke: #cbcbcb;
+  fill: red;
+}
+.cd-stroke-color-1#floor {
+  fill: none;
+}
+
+.cd-stroke-color-2 {
+  stroke: #cbcbcb;
+}
+
+.cd-stroke-color-3 {
+  stroke: red;
+}
+
+.cd-fill-color-1 {
+  fill: #223443;
+}
+
+.cd-pointer {
+  fill: #FFFFFF;
+  opacity: 0;
+}
+
+/* -------------------------------- 
+
+Main elements - Loading
+
+-------------------------------- */
+#cd-loading {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+#cd-loading.fade-out {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+
+#cd-play-btn, #cd-pause-btn {
+  cursor: pointer;
+}
+
+#cd-pause-btn {
+  pointer-events: none;
+}
+
+.play-is-clicked #cd-pause-btn {
+  pointer-events: auto;
+}
+
+/* -------------------------------- 
+
+Main elements - Buildings 
+
+-------------------------------- */
+#cd-home-1-chimney, #cd-home-3-roof {
+  visibility: hidden;
+}

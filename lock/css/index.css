@@ -128,7 +128,7 @@ ul, li { list-style: none; }
   .head_nav_met_11_2 .nav > li > .link:hover:after { height: 1px; bottom: 0px; top: auto }
   .met-navfixed { padding-top: 52px; }
   .fixed { height: 52px; position: fixed; width: 100%; top: 0; z-index: 1040; box-shadow: none; }
-  .head_nav_met_11_2 { height: 52px; min-height: 52px; background-color: #ededed; background-color: #0f0f0f; }
+  .head_nav_met_11_2 { height: 52px; min-height: 52px; background-color: #ededed; background-color: #ffffff; }
   .head_nav_met_11_2 .navbar-menu { width: 52px; height: 52px; border: 0; outline: 0; float: left !important; padding: 5px; background-image: url(https://show.metinfo.cn/m/mui039/304/upload/mui039/304/201802/1519354568.png?met-id=0&met-table=ui_config&met-field=uip_value); background-repeat: no-repeat; background-position: center; -webkit-appearance: caret }
   .head_nav_met_11_2 .nav > li { margin-left: 0px !important }
   .head_nav_met_11_2 .dropdown-menu > li > .dropdown-menu > li > a { padding-left: 40px }

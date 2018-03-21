@@ -52,6 +52,7 @@ ul, li {
   height: 100vh;
   position: relative;
   overflow: hidden;
+  margin-top: 4%;
 }
 #content .c {
   font-size: 10px;
@@ -74,6 +75,9 @@ ul, li {
   /* Main images navigation */
   /* Background Images (Blur effect) */
   /* Navigation styles */
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
 }
 #content #slider img {
   display: none;
